@@ -61,6 +61,7 @@ jobs:
         **\*test*.dll
         !**\obj\**
       vsTestVersion: 15.0
+      diagnosticsEnabled: true
       codeCoverageEnabled: false
       platform: '$(BuildPlatform)'
       configuration: release
