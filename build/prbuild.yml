@@ -49,7 +49,7 @@ jobs:
     displayName: 'Test Assemblies **\release\*test*.dll;-:**\obj\**'
     inputs:
       testAssemblyVer2: |
-        **\*tests.dll
+        **\*test*.dll
         !**\obj\**
       vsTestVersion: 15.0
       codeCoverageEnabled: true
